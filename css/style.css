@@ -13,7 +13,7 @@ overflow: hidden;
 }
 
 .bgfundo{
-    background: url(https://placehold.co/1920x1080) no-repeat center/cover;
+    background:  url(https://placehold.co/1920x1080)no-repeat center/cover;
     /* 
        background-color: blue;
        background-image: url(https://placehold.co/1920x1080)
@@ -210,13 +210,37 @@ font-family: 'Times New Roman', Times, serif;
   padding-top: 20px;
 }
 
-/* 
-#Cardapio div{
-  width: 100%;
+#Delivery{
+  max-height: 270px;
+  background: #ebe7db;
+  margin: 50px 0;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  text-align: center;
 }
 
-#Cardapio div img{
+#Delivery h1{
+  text-transform: uppercase;
+  color: #d03012;
+  font-weight: 900;
+}
 
-} */
+#Delivery .sec-menu{
+  justify-content: center;
+  padding: 40px;
+}
+
+#Icone{
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  margin: 20px 0;
+}
+
+.itens{
+  max-width: 250px;
+  text-align: center;
+}
+
